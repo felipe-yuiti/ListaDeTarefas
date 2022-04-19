@@ -14,19 +14,17 @@
 		B9A4DA53280C7C350060B9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A4DA52280C7C350060B9FA /* Assets.xcassets */; };
 		B9A4DA56280C7C350060B9FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9A4DA54280C7C350060B9FA /* LaunchScreen.storyboard */; };
 		B9A4DA61280C7C350060B9FA /* ListaDeTarefasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA60280C7C350060B9FA /* ListaDeTarefasTests.swift */; };
-		B9A4DA6B280C7C350060B9FA /* ListaDeTarefasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA6A280C7C350060B9FA /* ListaDeTarefasUITests.swift */; };
-		B9A4DA6D280C7C350060B9FA /* ListaDeTarefasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA6C280C7C350060B9FA /* ListaDeTarefasUITestsLaunchTests.swift */; };
+		B9A4DA7A280C7E920060B9FA /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA79280C7E920060B9FA /* Tarefa.swift */; };
+		B9A4DA81280C818C0060B9FA /* ListaTarefaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA80280C818C0060B9FA /* ListaTarefaService.swift */; };
+		B9A4DA83280CCA480060B9FA /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA82280CCA480060B9FA /* Alerta.swift */; };
+		B9A4DA85280CCD4B0060B9FA /* RemoveListaDeTarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA84280CCD4B0060B9FA /* RemoveListaDeTarefa.swift */; };
+		B9A4DA88280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA86280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.swift */; };
+		B9A4DA89280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A4DA87280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.xib */; };
+		B9A4DA8F280D04F80060B9FA /* EditarListaDeTarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA8E280D04F80060B9FA /* EditarListaDeTarefa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B9A4DA5D280C7C350060B9FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9A4DA3E280C7C330060B9FA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9A4DA45280C7C330060B9FA;
-			remoteInfo = ListaDeTarefas;
-		};
-		B9A4DA67280C7C350060B9FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9A4DA3E280C7C330060B9FA /* Project object */;
 			proxyType = 1;
@@ -46,9 +44,13 @@
 		B9A4DA57280C7C350060B9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9A4DA5C280C7C350060B9FA /* ListaDeTarefasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListaDeTarefasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A4DA60280C7C350060B9FA /* ListaDeTarefasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeTarefasTests.swift; sourceTree = "<group>"; };
-		B9A4DA66280C7C350060B9FA /* ListaDeTarefasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListaDeTarefasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9A4DA6A280C7C350060B9FA /* ListaDeTarefasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeTarefasUITests.swift; sourceTree = "<group>"; };
-		B9A4DA6C280C7C350060B9FA /* ListaDeTarefasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeTarefasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9A4DA79280C7E920060B9FA /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
+		B9A4DA80280C818C0060B9FA /* ListaTarefaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTarefaService.swift; sourceTree = "<group>"; };
+		B9A4DA82280CCA480060B9FA /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		B9A4DA84280CCD4B0060B9FA /* RemoveListaDeTarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveListaDeTarefa.swift; sourceTree = "<group>"; };
+		B9A4DA86280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarListaDeTarefaViewController.swift; sourceTree = "<group>"; };
+		B9A4DA87280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarListaDeTarefaViewController.xib; sourceTree = "<group>"; };
+		B9A4DA8E280D04F80060B9FA /* EditarListaDeTarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarListaDeTarefa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +68,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9A4DA63280C7C350060B9FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +76,6 @@
 			children = (
 				B9A4DA48280C7C330060B9FA /* ListaDeTarefas */,
 				B9A4DA5F280C7C350060B9FA /* ListaDeTarefasTests */,
-				B9A4DA69280C7C350060B9FA /* ListaDeTarefasUITests */,
 				B9A4DA47280C7C330060B9FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +85,6 @@
 			children = (
 				B9A4DA46280C7C330060B9FA /* ListaDeTarefas.app */,
 				B9A4DA5C280C7C350060B9FA /* ListaDeTarefasTests.xctest */,
-				B9A4DA66280C7C350060B9FA /* ListaDeTarefasUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +92,13 @@
 		B9A4DA48280C7C330060B9FA /* ListaDeTarefas */ = {
 			isa = PBXGroup;
 			children = (
+				B9A4DA7E280C80BC0060B9FA /* View */,
+				B9A4DA7D280C809A0060B9FA /* Service */,
+				B9A4DA7C280C80920060B9FA /* Controller */,
+				B9A4DA7B280C808C0060B9FA /* Model */,
+				B9A4DA7F280C80E00060B9FA /* SupportingFiles */,
 				B9A4DA49280C7C330060B9FA /* AppDelegate.swift */,
 				B9A4DA4B280C7C330060B9FA /* SceneDelegate.swift */,
-				B9A4DA4D280C7C330060B9FA /* ViewController.swift */,
-				B9A4DA4F280C7C330060B9FA /* Main.storyboard */,
-				B9A4DA52280C7C350060B9FA /* Assets.xcassets */,
-				B9A4DA54280C7C350060B9FA /* LaunchScreen.storyboard */,
-				B9A4DA57280C7C350060B9FA /* Info.plist */,
 			);
 			path = ListaDeTarefas;
 			sourceTree = "<group>";
@@ -118,13 +111,51 @@
 			path = ListaDeTarefasTests;
 			sourceTree = "<group>";
 		};
-		B9A4DA69280C7C350060B9FA /* ListaDeTarefasUITests */ = {
+		B9A4DA7B280C808C0060B9FA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B9A4DA6A280C7C350060B9FA /* ListaDeTarefasUITests.swift */,
-				B9A4DA6C280C7C350060B9FA /* ListaDeTarefasUITestsLaunchTests.swift */,
+				B9A4DA79280C7E920060B9FA /* Tarefa.swift */,
+				B9A4DA82280CCA480060B9FA /* Alerta.swift */,
 			);
-			path = ListaDeTarefasUITests;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9A4DA7C280C80920060B9FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9A4DA4D280C7C330060B9FA /* ViewController.swift */,
+				B9A4DA8E280D04F80060B9FA /* EditarListaDeTarefa.swift */,
+				B9A4DA86280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.swift */,
+				B9A4DA84280CCD4B0060B9FA /* RemoveListaDeTarefa.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9A4DA7D280C809A0060B9FA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B9A4DA80280C818C0060B9FA /* ListaTarefaService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B9A4DA7E280C80BC0060B9FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9A4DA4F280C7C330060B9FA /* Main.storyboard */,
+				B9A4DA87280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9A4DA7F280C80E00060B9FA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B9A4DA52280C7C350060B9FA /* Assets.xcassets */,
+				B9A4DA54280C7C350060B9FA /* LaunchScreen.storyboard */,
+				B9A4DA57280C7C350060B9FA /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +196,6 @@
 			productReference = B9A4DA5C280C7C350060B9FA /* ListaDeTarefasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B9A4DA65280C7C350060B9FA /* ListaDeTarefasUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9A4DA76280C7C350060B9FA /* Build configuration list for PBXNativeTarget "ListaDeTarefasUITests" */;
-			buildPhases = (
-				B9A4DA62280C7C350060B9FA /* Sources */,
-				B9A4DA63280C7C350060B9FA /* Frameworks */,
-				B9A4DA64280C7C350060B9FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9A4DA68280C7C350060B9FA /* PBXTargetDependency */,
-			);
-			name = ListaDeTarefasUITests;
-			productName = ListaDeTarefasUITests;
-			productReference = B9A4DA66280C7C350060B9FA /* ListaDeTarefasUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +210,6 @@
 						CreatedOnToolsVersion = 13.3;
 					};
 					B9A4DA5B280C7C350060B9FA = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = B9A4DA45280C7C330060B9FA;
-					};
-					B9A4DA65280C7C350060B9FA = {
 						CreatedOnToolsVersion = 13.3;
 						TestTargetID = B9A4DA45280C7C330060B9FA;
 					};
@@ -221,7 +230,6 @@
 			targets = (
 				B9A4DA45280C7C330060B9FA /* ListaDeTarefas */,
 				B9A4DA5B280C7C350060B9FA /* ListaDeTarefasTests */,
-				B9A4DA65280C7C350060B9FA /* ListaDeTarefasUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,17 +242,11 @@
 				B9A4DA56280C7C350060B9FA /* LaunchScreen.storyboard in Resources */,
 				B9A4DA53280C7C350060B9FA /* Assets.xcassets in Resources */,
 				B9A4DA51280C7C330060B9FA /* Main.storyboard in Resources */,
+				B9A4DA89280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B9A4DA5A280C7C350060B9FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9A4DA64280C7C350060B9FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +260,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A4DA85280CCD4B0060B9FA /* RemoveListaDeTarefa.swift in Sources */,
 				B9A4DA4E280C7C330060B9FA /* ViewController.swift in Sources */,
 				B9A4DA4A280C7C330060B9FA /* AppDelegate.swift in Sources */,
+				B9A4DA7A280C7E920060B9FA /* Tarefa.swift in Sources */,
+				B9A4DA8F280D04F80060B9FA /* EditarListaDeTarefa.swift in Sources */,
+				B9A4DA81280C818C0060B9FA /* ListaTarefaService.swift in Sources */,
+				B9A4DA83280CCA480060B9FA /* Alerta.swift in Sources */,
 				B9A4DA4C280C7C330060B9FA /* SceneDelegate.swift in Sources */,
+				B9A4DA88280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +280,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9A4DA62280C7C350060B9FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9A4DA6D280C7C350060B9FA /* ListaDeTarefasUITestsLaunchTests.swift in Sources */,
-				B9A4DA6B280C7C350060B9FA /* ListaDeTarefasUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +287,6 @@
 			isa = PBXTargetDependency;
 			target = B9A4DA45280C7C330060B9FA /* ListaDeTarefas */;
 			targetProxy = B9A4DA5D280C7C350060B9FA /* PBXContainerItemProxy */;
-		};
-		B9A4DA68280C7C350060B9FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9A4DA45280C7C330060B9FA /* ListaDeTarefas */;
-			targetProxy = B9A4DA67280C7C350060B9FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,7 +433,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VZUW6X5B2C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ListaDeTarefas/Info.plist;
+				INFOPLIST_FILE = ListaDeTarefas/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -467,7 +461,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VZUW6X5B2C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ListaDeTarefas/Info.plist;
+				INFOPLIST_FILE = ListaDeTarefas/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -526,42 +520,6 @@
 			};
 			name = Release;
 		};
-		B9A4DA77280C7C350060B9FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VZUW6X5B2C;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.felipe.ListaDeTarefasUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ListaDeTarefas;
-			};
-			name = Debug;
-		};
-		B9A4DA78280C7C350060B9FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VZUW6X5B2C;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.felipe.ListaDeTarefasUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ListaDeTarefas;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +546,6 @@
 			buildConfigurations = (
 				B9A4DA74280C7C350060B9FA /* Debug */,
 				B9A4DA75280C7C350060B9FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9A4DA76280C7C350060B9FA /* Build configuration list for PBXNativeTarget "ListaDeTarefasUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9A4DA77280C7C350060B9FA /* Debug */,
-				B9A4DA78280C7C350060B9FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
