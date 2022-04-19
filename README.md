@@ -8,8 +8,9 @@
 
 <!--ts-->
    * [Sobre o projeto](#-sobre-o-projeto)
-   * [Layout](#-layout)
    * [Funcionalidades](#-funcionalidades)
+   * [Layout](#-layout)
+
 <!--te-->
 
 ## 💻 Sobre o projeto
@@ -39,8 +40,8 @@ A baixo será mostrado algumas técnicas que o teste exige:
 
 <p align="center">
   
-  <img src=" ![Simulator Screen Shot - iPhone 13 - 2022-04-19 at 10 38 52](https://user-images.githubusercontent.com/8284318/164031618-0704b0b5-c71b-482d-baf4-701084ee6cbf.png)"  width="400px" />
-  <img src=" ![Simulator Screen Shot - iPhone 13 - 2022-04-19 at 11 32 42](https://user-images.githubusercontent.com/8284318/164031626-48e39d4f-5b1a-4e43-ba01-3bfa6628e7dd.png)"  width="400px" />
+ <img src="https://user-images.githubusercontent.com/8284318/164040679-5b684054-681a-4767-8cbe-649dbd044cd2.png" width="400px">
+ <img src="https://user-images.githubusercontent.com/8284318/164031618-0704b0b5-c71b-482d-baf4-701084ee6cbf.png" width="400px">	
    
 </p>
 
