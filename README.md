@@ -17,7 +17,7 @@
 
   Esse aplicativo foi desenvolvido para testar os conhecimentos tecnicos para a vaga de desenvolvedor júnior iOS na empresa Klever.
 O aplicativo lista de tarefa tem como objetivo a criação de tarefas que estão listadas em uma tabela.
-A baixo será mostrado algumas técnicas que o teste exige:
+Abaixo será mostrado algumas técnicas que o teste exige:
  
 - Uso do storyboard e xib.
 - Foi necessário o uso do mockAPI (https://mockapi.io/projects).
