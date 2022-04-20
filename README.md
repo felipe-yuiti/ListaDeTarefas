@@ -41,7 +41,7 @@ Abaixo será mostrado algumas técnicas que o teste exige:
 
 <p align="center">
   
- <img src="https://user-images.githubusercontent.com/8284318/164040679-5b684054-681a-4767-8cbe-649dbd044cd2.png" width="400px">
+ <img src="https://user-images.githubusercontent.com/8284318/164238244-535d1c4a-ebc6-4d77-98d7-cdc3e33d15d6.png" width="400px">
  <img src="https://user-images.githubusercontent.com/8284318/164031618-0704b0b5-c71b-482d-baf4-701084ee6cbf.png" width="400px">	
    
 </p>
@@ -53,7 +53,8 @@ Abaixo será mostrado algumas técnicas que o teste exige:
 * [Git](https://git-scm.com) para controle de versões
 * [Xcode](https://developer.apple.com/xcode/) para edição de código
 * [Swift](https://www.apple.com/br/swift/) linguagem para desenvolver o aplicativo
-* [Mock API](https://mockapi.io) simula uma Api  
+* [Mock API](https://mockapi.io) simula uma Api para a aplicação
+* [UIKit](https://developer.apple.com/documentation/uikit) usado para a Infraestrutura do aplicativo
 
 
 
