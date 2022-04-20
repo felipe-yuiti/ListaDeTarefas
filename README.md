@@ -10,6 +10,7 @@
    * [Sobre o projeto](#-sobre-o-projeto)
    * [Funcionalidades](#-funcionalidades)
    * [Layout](#-layout)
+   * [Tecnologias](#-tecnologias)
 
 <!--te-->
 
@@ -46,6 +47,16 @@ Abaixo será mostrado algumas técnicas que o teste exige:
 </p>
 
 ---
+
+## 🛠 Tecnologias
+
+* [Git](https://git-scm.com) para controle de versões
+* [Xcode](https://developer.apple.com/xcode/) para edição de código
+* [Swift](https://www.apple.com/br/swift/) linguagem para desenvolver o aplicativo
+* [Mock API](https://mockapi.io) simula uma Api  
+
+
+
   
 
 
