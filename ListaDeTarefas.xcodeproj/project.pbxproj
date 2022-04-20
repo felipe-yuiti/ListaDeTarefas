@@ -21,6 +21,7 @@
 		B9A4DA88280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA86280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.swift */; };
 		B9A4DA89280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A4DA87280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.xib */; };
 		B9A4DA8F280D04F80060B9FA /* EditarListaDeTarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA8E280D04F80060B9FA /* EditarListaDeTarefa.swift */; };
+		B9A4DA91280F9F660060B9FA /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4DA90280F9F660060B9FA /* DetalheViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B9A4DA86280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarListaDeTarefaViewController.swift; sourceTree = "<group>"; };
 		B9A4DA87280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarListaDeTarefaViewController.xib; sourceTree = "<group>"; };
 		B9A4DA8E280D04F80060B9FA /* EditarListaDeTarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarListaDeTarefa.swift; sourceTree = "<group>"; };
+		B9A4DA90280F9F660060B9FA /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				B9A4DA8E280D04F80060B9FA /* EditarListaDeTarefa.swift */,
 				B9A4DA86280CD4F50060B9FA /* AdicionarListaDeTarefaViewController.swift */,
 				B9A4DA84280CCD4B0060B9FA /* RemoveListaDeTarefa.swift */,
+				B9A4DA90280F9F660060B9FA /* DetalheViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A4DA91280F9F660060B9FA /* DetalheViewController.swift in Sources */,
 				B9A4DA85280CCD4B0060B9FA /* RemoveListaDeTarefa.swift in Sources */,
 				B9A4DA4E280C7C330060B9FA /* ViewController.swift in Sources */,
 				B9A4DA4A280C7C330060B9FA /* AppDelegate.swift in Sources */,

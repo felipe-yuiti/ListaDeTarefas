@@ -17,7 +17,7 @@ class RemoveListaDeTarefaViewController{
     }
     
     func exibe(_ listaDeTarefa: Tarefa, handler: @escaping (UIAlertAction) -> Void){
-        let alerta = UIAlertController(title: listaDeTarefa.title, message: "\(listaDeTarefa.descricao)", preferredStyle: .alert)
+        let alerta = UIAlertController(title: listaDeTarefa.title, message: "\(listaDeTarefa.description)", preferredStyle: .alert)
         let botaoCancelar = UIAlertAction(title: "Cancelar", style: .cancel,handler: nil)
         alerta.addAction(botaoCancelar)
         
