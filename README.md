@@ -59,9 +59,7 @@ Abaixo será mostrado algumas técnicas que o teste exige:
 
 ## 📹 Fluxo do aplicativo
 
-
-
-https://user-images.githubusercontent.com/8284318/167256039-655d6f63-0361-439a-b8d1-5a274e888c9b.mp4
+<img src="https://user-images.githubusercontent.com/8284318/167256039-655d6f63-0361-439a-b8d1-5a274e888c9b.mp4" width="400px">
 
 
 
