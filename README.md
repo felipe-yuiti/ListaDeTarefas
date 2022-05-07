@@ -57,8 +57,12 @@ Abaixo será mostrado algumas técnicas que o teste exige:
 * [UIKit](https://developer.apple.com/documentation/uikit) usado para a Infraestrutura do aplicativo
 
 
+## 📹 Fluxo do aplicativo
 
-  
+
+
+https://user-images.githubusercontent.com/8284318/167256039-655d6f63-0361-439a-b8d1-5a274e888c9b.mp4
+
 
 
 
